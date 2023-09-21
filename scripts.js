@@ -32,7 +32,7 @@ function mostrar(){
             producto =>
                 $("#table").append(
                     "<tr>" +
-                    "<td class='col-lg-4 prod' style='border:1px solid black;'>"+producto['id   ']+"</td>" +
+                    "<td class='col-lg-4 prod' style='border:1px solid black;'>"+producto['id']+"</td>" +
                     "<td class='col-lg-4 prod' style='border:1px solid black;'>"+producto['name']+"</td>" +
                     "<td class='col-lg-4 prod' style='border:1px solid black;'>"+producto['price']+"</td>" +
                     "<td class='col-lg-4 prod' style='border:1px solid black;'>"+producto['usd_price']+"</td>" +
